@@ -1,0 +1,24 @@
+.footer {
+    background-color: black;
+    height: 420px;
+    border-top: 1px solid white;
+}
+.footer-container {
+    display  : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-logo {
+    width: 250px;
+    height: 250px;
+}
+.footer-content, .footer-copyrights {
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Poppins', cursive;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

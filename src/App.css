@@ -1,3 +1,13 @@
+.button {
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  background: #C0AA83;
+}
+.span {
+  color: #EAA661;
+  font-family: 'Yeon sung', cursive;
+}
 .App {
   text-align: center;
 }

@@ -1,0 +1,26 @@
+.quote-container {
+    position: relative;
+    height: 600px;
+    background: url('../images/coffee_background_home.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.quote-content {
+    text-align: center;
+    padding: 90px 50px;
+}
+.quote-text {
+    color: #FFF;
+    width: 720px;
+    text-align: center;
+    font-size: 65px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-block: auto;
+}
+.quote-span {
+    font-size: 80px;
+}

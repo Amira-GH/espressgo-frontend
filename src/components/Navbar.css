@@ -1,0 +1,111 @@
+.navbar {
+    position: relative;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.50);
+    margin-bottom: -65px;
+}
+.nav {
+    width: 90%;
+    position: relative;
+    margin-inline: auto;
+}
+.nav-logo {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 45%;
+    top: -20%;
+}
+.nav .nav-menu {
+    margin: 0;
+    padding-inline: auto;
+    list-style: none;
+    text-align: right;
+}
+.nav .nav-menu li {
+    float: none;
+    display: inline-block;
+}
+.nav .nav-menu li:nth-child(1) {
+    float: left;
+}
+.nav .nav-menu li:nth-child(2) {
+    float: left;
+}
+.nav .nav-menu li:nth-child(3) {
+    float: left;
+}
+.nav .nav-menu li .nav-link {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Poppins', cursive;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+    padding: 10px 20px;
+    color: white;
+}
+.nav .nav-menu li .nav-link .icon {
+    font-size: 30px;
+    color: white;
+}
+.nav .nav-menu li .nav-link:hover, .nav .nav-menu li .nav-link .icon:hover {
+color: #EAA661;
+}
+ @media screen and (max-width: 780px) {
+    .navbar {
+        height: 80px;
+        margin-top: -4px;
+    }
+    .hamburger {
+        padding: 5px;
+        display: block;
+        cursor: pointer;
+        text-align: -webkit-right;
+    }
+    .bar {
+        background-color: #120f0b;
+        width: 30px;
+        height: 3px;
+        display: block;
+        margin: 5px;
+        -webkit-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-logo {
+        left: 0;
+        top: 0;
+        z-index: 1;
+        width: 150px;
+        height: 150px;
+    }
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        transition: 0.7s ease-in-out;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.50);
+        top: 76px;
+        left: -200%;
+        gap: 0;
+        width: 100%;
+    }
+    .nav-menu.active {
+        left: 0%;
+    }
+    .nav-menu li {
+        margin: 16px 0;
+    }
+} 

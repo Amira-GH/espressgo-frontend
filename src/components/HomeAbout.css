@@ -1,0 +1,30 @@
+.home-about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 20px; */
+    width: 1400px;
+    margin-inline: auto;
+}
+.home-about-image {
+    width: 550px;
+}
+.home-about-content {
+    width: 760px;
+    color: #000;
+    text-align: center;
+    font-family: 'Poppins', cursive;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.home-about-title {
+    font-size: 65px;
+}
+.home-about-span {
+    font-size: 80px;
+}
+.home-about-description {
+    font-size: 35px;
+    width: 650px;
+}
